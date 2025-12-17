@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Player
+comment1.params=
+comment1.target=Player()
+comment10.params=amount
+comment10.target=void\ addShield(int)
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment2.params=n\ h\ s
+comment2.target=Player(java.lang.String,\ int,\ int)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=
+comment4.target=int\ getHealth()
+comment5.params=
+comment5.target=int\ getShield()
+comment6.params=
+comment6.target=int\ getEliminations()
+comment7.params=dmg
+comment7.target=void\ takeDamage(int)
+comment8.params=
+comment8.target=void\ addElimination()
+comment9.params=amount
+comment9.target=void\ heal(int)
+numComments=12

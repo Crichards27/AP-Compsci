@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Wordle
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=word\ guess
+comment2.target=java.lang.String\ compareWords(java.lang.String,\ java.lang.String)
+numComments=3
