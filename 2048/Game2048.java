@@ -71,11 +71,9 @@ public class Game2048
    public void moveUp()
    {
       for(int c = 0; c < gameBoard[0].length; c++){
-          // Iterate rows from top down
           for(int r = 0; r < gameBoard.length - 1; r++){
               if(gameBoard[r][c] == 0){
                   int row = r + 1;
-                  // Find next non-zero number below
                   while(row < gameBoard.length - 1 && gameBoard[row][c] == 0){
                       row++;
                   }
@@ -91,13 +89,10 @@ public class Game2048
    public void moveDown()
    {
       /* To be completed in Activity 3 Part D */
-      // Iterate through columns
       for(int c = 0; c < gameBoard[0].length; c++){
-          // Iterate rows from bottom up
           for(int r = gameBoard.length - 1; r > 0; r--){
               if(gameBoard[r][c] == 0){
                   int row = r - 1;
-                  // Find next non-zero number above
                   while(row > 0 && gameBoard[row][c] == 0){
                       row--;
                   }
